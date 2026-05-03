@@ -88,7 +88,6 @@ The experiments in the paper were run using:
 
 ```bash
 git clone https://github.com/rishabpendam/NLP_PROJECT_GROUP-28.git
-cd nlp_project
 ```
 
 ### 2. Create a virtual environment
