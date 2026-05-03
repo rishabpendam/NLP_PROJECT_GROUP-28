@@ -87,7 +87,7 @@ The experiments in the paper were run using:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/rishabpendam/NLP_PROJECT_GROUP-28
+git clone https://github.com/rishabpendam/NLP_PROJECT_GROUP-28.git
 cd nlp_project
 ```
 
