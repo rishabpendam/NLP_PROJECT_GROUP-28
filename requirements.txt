@@ -1,0 +1,18 @@
+# Core dependencies (always required)
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+
+# LLM providers (install the one(s) you need)
+# Groq (free tier — recommended)
+# groq>=0.9.0
+
+# Anthropic (paid)
+# anthropic>=0.34.0
+
+# Google Gemini (free tier)
+# google-generativeai>=0.8.0
+
+# Ollama runs locally — no Python package needed, just install from https://ollama.com

@@ -1,0 +1,248 @@
+{
+  "scenario_id": "ep0001",
+  "outcome": "deal",
+  "deal": true,
+  "final_deal": {
+    "price": 163.51,
+    "delivery_days": 20.0,
+    "warranty_months": 10.0
+  },
+  "buyer_utility": 0.2308,
+  "buyer_reputation_score": 0.5,
+  "seller_reputation_score": 0.5,
+  "turns": [
+    {
+      "role": "buyer",
+      "turn_number": 0,
+      "thought": "I'll start with a conservative offer that's well below my WTP to leave room for negotiation.",
+      "talk": "Hi, I'm interested in your product, but I'd like to propose an initial offer that balances our needs. Can we discuss the price, delivery time, and warranty?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 93.21,
+        "delivery_days": 14.0,
+        "warranty_months": 12.0
+      },
+      "offer": {
+        "price": 93.21,
+        "delivery_days": 14.0,
+        "warranty_months": 12.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 1,
+      "thought": "",
+      "talk": "Thank you for your interest in our product! We appreciate your proposal, and we're happy to discuss the details. Our initial offer is $162.46, 20 days delivery, and 9 months warranty.\n\n=== ACTION ===",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 162.46,
+        "delivery_days": 20.0,
+        "warranty_months": 9.0
+      },
+      "offer": {
+        "price": 162.46,
+        "delivery_days": 20.0,
+        "warranty_months": 9.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 2,
+      "thought": "I'm a bit surprised by their initial offer, considering it's quite close to my WTP. I'll try to negotiate further while still being mindful of my constraints.",
+      "talk": "Thank you for your offer! I appreciate the time and effort you put into crafting it. However, I was hoping we could explore some options that would be more in line with what I'm looking for. Can we discuss some adjustments?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 143.18,
+        "delivery_days": 17.0,
+        "warranty_months": 13.0
+      },
+      "offer": {
+        "price": 143.18,
+        "delivery_days": 17.0,
+        "warranty_months": 13.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 3,
+      "thought": "",
+      "talk": "",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 164.53,
+        "delivery_days": 22.0,
+        "warranty_months": 10.0
+      },
+      "offer": {
+        "price": 164.53,
+        "delivery_days": 22.0,
+        "warranty_months": 10.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 4,
+      "thought": "I'm not satisfied with the seller's latest offer, but I don't want to immediately reject it either. Since my previous offer was rejected, I'll try to make some concessions while still pushing for a better deal.",
+      "talk": "Thank you again for your revised offer! I appreciate the time and effort you put into it. However, after careful consideration, I'm still looking for some adjustments that would better align with our needs. Would you be willing to explore some compromises?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 153.91,
+        "delivery_days": 19.0,
+        "warranty_months": 12.0
+      },
+      "offer": {
+        "price": 153.91,
+        "delivery_days": 19.0,
+        "warranty_months": 12.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 5,
+      "thought": "I need to assess the buyer's latest offer and decide how to respond. Their price is getting closer to my minimum acceptable price, so I should be cautious.",
+      "talk": "Thank you for your willingness to explore compromises! We're happy to discuss adjustments that meet our needs as well. Our goal is to find a mutually beneficial agreement.",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 158.12,
+        "delivery_days": 18.0,
+        "warranty_months": 11.0
+      },
+      "offer": {
+        "price": 158.12,
+        "delivery_days": 18.0,
+        "warranty_months": 11.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 6,
+      "thought": "I'm concerned that the seller's latest offer is not moving much in terms of concessions. I'll try to make a slightly more aggressive offer while still leaving room for negotiation.",
+      "talk": "I appreciate your willingness to discuss adjustments and find a mutually beneficial agreement. However, after careful consideration, I'm still looking for some further compromises that would better align with our needs.",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 147.35,
+        "delivery_days": 16.0,
+        "warranty_months": 14.0
+      },
+      "offer": {
+        "price": 147.35,
+        "delivery_days": 16.0,
+        "warranty_months": 14.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 7,
+      "thought": "The buyer's latest offer is still below our initial offer, so I need to make a counter-offer that takes into account the concessions they've made.",
+      "talk": "We appreciate your willingness to explore compromises! However, we're still looking for a mutually beneficial agreement that meets both of our needs. Would you be willing to revisit some aspects of your proposal?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 159.42,
+        "delivery_days": 21.0,
+        "warranty_months": 10.0
+      },
+      "offer": {
+        "price": 159.42,
+        "delivery_days": 21.0,
+        "warranty_months": 10.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 8,
+      "thought": "I'm not sure where the negotiation is heading. The seller's latest offer is still too far away from my target. I'll try to converge toward a deal by making a smaller offer that addresses their concerns.",
+      "talk": "Thank you for your persistence in finding a mutually beneficial agreement! I appreciate your willingness to revisit some aspects of our proposal. Considering the adjustments we've made so far, I'm willing to make another concession to find common ground. Can we discuss further?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 152.85,
+        "delivery_days": 18.0,
+        "warranty_months": 13.0
+      },
+      "offer": {
+        "price": 152.85,
+        "delivery_days": 18.0,
+        "warranty_months": 13.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 9,
+      "thought": "I've been flexible so far, but the buyer's latest offer is still too low for me to consider accepting. I need to make a stronger counteroffer that pushes them towards my minimum acceptable price.",
+      "talk": "Thank you for your willingness to revisit some aspects of our proposal! We appreciate your persistence in finding common ground. Considering the adjustments we've made so far, we're happy to discuss further and find a mutually beneficial agreement.",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 167.92,
+        "delivery_days": 19.0,
+        "warranty_months": 9.0
+      },
+      "offer": {
+        "price": 167.92,
+        "delivery_days": 19.0,
+        "warranty_months": 9.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 10,
+      "thought": "I've been trying to find a balance between the seller's offers and my own preferences. Considering their latest offer, I think it's time to make another concession to get closer to a deal.",
+      "talk": "Thank you for your persistence in finding common ground! I appreciate your willingness to revisit some aspects of our proposal. Considering the adjustments we've made so far, I'm willing to make another concession to find a mutually beneficial agreement. Would you be open to exploring further compromises?",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 157.19,
+        "delivery_days": 17.0,
+        "warranty_months": 14.0
+      },
+      "offer": {
+        "price": 157.19,
+        "delivery_days": 17.0,
+        "warranty_months": 14.0
+      }
+    },
+    {
+      "role": "seller",
+      "turn_number": 11,
+      "thought": "I've been adjusting my offers to the buyer's concessions, trying to find a mutually beneficial agreement. However, I'm not willing to go below my minimum acceptable price. I need to be careful not to concede too much.",
+      "talk": "We appreciate your persistence in finding common ground! Considering the adjustments we've made so far, we're happy to discuss further and find a mutually beneficial agreement. Our goal is to reach an agreement that meets both our needs.",
+      "action": "OFFER",
+      "action_payload": {
+        "price": 163.51,
+        "delivery_days": 20.0,
+        "warranty_months": 10.0
+      },
+      "offer": {
+        "price": 163.51,
+        "delivery_days": 20.0,
+        "warranty_months": 10.0
+      }
+    },
+    {
+      "role": "buyer",
+      "turn_number": 12,
+      "thought": "I need to think carefully about my next move. The seller's latest offer is very close to my own last offer. I should try to converge towards a deal while being mindful of my constraints.",
+      "talk": "Thank you for your persistence in finding common ground! We appreciate your willingness to revisit some aspects of our proposal. Considering the adjustments we've made so far, I'm willing to make another concession to find a mutually beneficial agreement.",
+      "action": "DEAL",
+      "action_payload": {},
+      "offer": null
+    }
+  ],
+  "structured_answers": [],
+  "scenario": {
+    "buyer_wtp": 169.11,
+    "buyer_weights": {
+      "price": 0.4206,
+      "delivery": 0.3374,
+      "warranty": 0.242
+    },
+    "seller_min_price": 79.27,
+    "seller_production_cost": 70.36,
+    "seller_initial_offer": 162.46,
+    "seller_weights": {
+      "price": 0.4049,
+      "delivery": 0.3789,
+      "warranty": 0.2162
+    },
+    "noise": 0.2,
+    "rep_visible": false,
+    "max_turns": 16
+  }
+}

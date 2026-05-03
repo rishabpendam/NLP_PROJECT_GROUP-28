@@ -1,0 +1,20 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Results (episode logs — large)
+results/*.json
+
+# Keep the gitkeep so the directory exists
+!results/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/

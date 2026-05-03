@@ -1,0 +1,11 @@
+{
+  "condition": "norep",
+  "rep_visible": false,
+  "noise": 0.2,
+  "n_episodes": 1,
+  "provider": "ollama",
+  "deal_rate": 1.0,
+  "avg_buyer_utility": 0.2308,
+  "final_buyer_rep": 0.56,
+  "final_seller_rep": 0.54
+}
