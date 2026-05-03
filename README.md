@@ -1,6 +1,6 @@
 # LLM Negotiation — Reputation Effects in Multi-Issue Bargaining
 
-NLP Project · USC · Evaluating Reputation Effects in Multi-Issue LLM Negotiation
+NLP Project · Evaluating Reputation Effects in Multi-Issue LLM Negotiation
 
 ---
 
